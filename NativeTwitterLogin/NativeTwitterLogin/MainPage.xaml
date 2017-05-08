@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:NativeTwitterLogin"
+             x:Class="NativeTwitterLogin.MainPage">
+    <Grid BackgroundColor="#40a1f5" VerticalOptions="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="auto" />
+        </Grid.ColumnDefinitions>
+        <Image Grid.Column="1" Source="twitter_login.png" Margin="0,11,8,11" HorizontalOptions="Start"  VerticalOptions="Center" />
+        <Label HorizontalOptions="Center" Margin="15,2,0,0"  FontSize="18"  Text="Twitter"   VerticalOptions="Center" TextColor="White" />
+        <Grid.GestureRecognizers>
+            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
+        </Grid.GestureRecognizers>
+    </Grid>
+
+</ContentPage>
