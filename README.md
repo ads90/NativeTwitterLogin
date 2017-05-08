@@ -6,3 +6,5 @@ to do this step you can directly find useful link in [fabric documentation ](htt
 
 After doing this step we have to[ download the jar of fabric library and twitter core ](https://www.nuget.org/packages/Fabric.TwitterCore " download the jar of fabric library and twitter core ")so we can convert them to dll and then bind them to us them in xamarin 
 
+finally we have twitter native login direct you to twitter app
+![](https://us.v-cdn.net/5019960/upl~~~~oads/editor/0m/yum5hz2ukc9e.png "")
